@@ -1,0 +1,6 @@
+#ifndef __PROT_LIBRARY_SYSTEM_CONSOLE_H_
+#define __PROT_LIBRARY_SYSTEM_CONSOLE_H_
+
+
+
+#endif
