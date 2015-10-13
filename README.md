@@ -13,7 +13,7 @@ generic c++ library
 
 ## Support:
   Now : Log, Test, Thread, Time, System, Console<br/>
-  Later : Path, Json, Net, ...<br/>
+  Later : File, Serialize, Network, ...<br/>
   Never : (no think much)<br/>
 
 ## Feature:
@@ -22,6 +22,31 @@ generic c++ library
   1. Color Console Print
   1. Thread & Synchronization
   1. TimeUnit (small partial)
+
+##### Planed :
+  1. Path Url Operation
+  1. File System Operation
+  1. File Mapping
+  1. Json Parser
+  1. Ini File Parser
+  1. Base64 transform
+  1. Hash library
+  1. High efficiency netio
+  1. Referenced String
+  1. Generic DataStruct (list/map)
+  1. Text utils & recognition
+  1. Heap Management
+
+##### No planed :
+  1. Regular Expression
+  1. GUI System
+  1. File Compression
+  1. Net Client
+  
+##### No decided :
+  1. Process interactive
+  1. SSL (simple)
+  1. XML Parser
 
 ## Notice:
   /struct not stable implemented, do not use.<br/>
