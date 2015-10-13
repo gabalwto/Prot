@@ -14,10 +14,14 @@ generic c++ library
 ## Support:
   Now : Log, Test, Thread, Time, System, Console<br/>
   Later : Path, Json, Net, ...<br/>
-  Never : <br/>
+  Never : (no think much)<br/>
 
 ## Feature:
-  Now : Unittest, Thread & Synchronization, TimeUnit<br/>
+##### Now :
+  1. Parallel Unittest
+  1. Color Console Print
+  1. Thread & Synchronization
+  1. TimeUnit (small partial)
 
 ## Notice:
   /struct not stable implemented, do not use.<br/>
@@ -25,4 +29,6 @@ generic c++ library
 ## Build System:
   use cmake 2.8 for build all.<br/>
   maintain on Win32,Win64,centos6+<br/>
+  
+  build script for package all-version libs.
   
