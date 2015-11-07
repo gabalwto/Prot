@@ -46,7 +46,12 @@ if [[ ! -d Debug || ! -d Release ]]; then
 exit 7
 fi
 
+if [[ -z "$1" ]]; then
 BUILD_OS_NAME=`head -n 1 /etc/issue | cut -d " " -f1`
+else
+BUILD_OS_NAME="$1"
+fi
+
 BUILD_PROCESS=`uname -p`
 if [[ ! -z "${BUILD_PROCESS}" ]]; then
 BUILD_OS_NAME="${BUILD_OS_NAME}-${BUILD_PROCESS}"

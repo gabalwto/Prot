@@ -36,7 +36,7 @@ static pthread_once_t tlskey_once = PTHREAD_ONCE_INIT;
 inline THREADID _TidRollGenNext()
 {
 	pthread_mutex_lock(&tid_mutex);
-	THREADID tid = (THREADID)tid_max;
+	THREADID tid = (THREADID)(Size)tid_max;
 	tid_max += 3;
 	pthread_mutex_unlock(&tid_mutex);
 	return tid;
